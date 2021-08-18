@@ -1,0 +1,49 @@
+body{
+    background: #dbac53;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button{
+    height: 50px;
+    width: 100px;
+    border-radius: 15%;
+    border-color: black;
+    background: green;
+    cursor: pointer;
+}
+
+button:hover{
+transform: scale(1.1);
+}
+
+input{
+    width: 200px;
+    height: 50px;
+    border-radius: 5%;
+    border-color: #8f8a8a;
+}
+
+span{
+    display: none;
+}
+
+.correto{
+    display: inline;
+    font-weight: bold;
+    color: green;
+}
+.imagemCorreta{
+    background: no-repeat url('https://lh4.ggpht.com/-d6brIL-BFSY/UqP3IsDeYeI/AAAAAAAAd9o/yfzwA-dR01Y/s400/melhorconteudo-fogos-de-artificio-8.gif');
+    width: 300px;
+    height: 150px;
+}
+.imagemIncorreta{
+    background: no-repeat url('https://i.gifer.com/origin/2b/2bef5dcb100766198394e5bd1bcff395_w200.gif');
+    width: 300px;
+    height: 150px;
+}
+.incorreto{
+    display: inline;
+    font-weight: bold;
+    color: red;
+}
